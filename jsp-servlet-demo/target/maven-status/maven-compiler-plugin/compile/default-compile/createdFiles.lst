@@ -1,0 +1,13 @@
+com\jspdemo\controller\HomeController.class
+com\jspdemo\model\Book.class
+com\jspdemo\SpringBootJspConfiguration.class
+com\jspdemo\controller\JSPVariableController.class
+com\jspdemo\service\BookServiceImpl.class
+com\jspdemo\repository\Impl\InMemoryBookRepository.class
+com\jspdemo\controller\BookController.class
+com\jspdemo\repository\Impl\BookData.class
+com\jspdemo\exception\DuplicateBookException.class
+com\jspdemo\repository\Impl\BookRepository.class
+com\jspdemo\SpringBootJspApplication.class
+com\jspdemo\service\BookService.class
+com\jspdemo\exception\LibraryControllerAdvice.class

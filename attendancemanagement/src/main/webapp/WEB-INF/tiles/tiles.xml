@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+	<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+	<tiles-definitions>
+
+	<definition name="adminbsb.definition" template="/WEB-INF/views/crm/layout/layout.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="header"
+				value="/WEB-INF/views/crm/layout/header.jsp" />
+			<put-attribute name="menu" value="/WEB-INF/views/crm/layout/menu.jsp" />
+			<put-attribute name="body" value="" />
+			<put-attribute name="footer"
+				value="/WEB-INF/views/crm/layout/footer.jsp" />
+	</definition>
+	
+	<!-- <definition name="welcome" template="/WEB-INF/views/index.jsp">
+	<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/index.jsp"/>
+	</definition> -->
+	
+	<definition name="createdept" template="/WEB-INF/views/crm/crmform/dept.jsp">
+	<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/dept.jsp"/>
+	</definition>
+	
+		
+</tiles-definitions>
