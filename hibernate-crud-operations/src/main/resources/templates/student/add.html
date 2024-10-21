@@ -1,0 +1,39 @@
+<!-- add.html -->
+<!DOCTYPE html> 
+<html lang="en" xmlns:th="http://www.thymeleaf.org"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="/css/styles.css"> 
+	<title>Add Student</title> 
+</head> 
+<body> 
+
+<div class="container"> 
+	
+	<center> 
+	<h1>Hibernate CRUD</h1>	 
+	</center> 
+	
+	<h2>Add Student</h2> 
+
+	<form th:action="@{/students/add}" th:object="${student}" method="post"> 
+		<label for="name">Name:</label> 
+		<input type="text" id="name" name="name" th:field="*{name}" required> 
+
+		<label for="age">Age:</label> 
+		<input type="number" id="age" name="age" th:field="*{age}" required> 
+		<label for="age">Enrolled Course:</label> 
+		<input type="text" id="enrolledcourse" name="enrolledcourse" th:field="*{enrolledcourse}" required> 
+
+		<button type="submit">Save</button> 
+	</form> 
+
+<br> 
+<br> 
+	<a href="/students">Back to List</a> 
+
+</div> 
+
+</body> 
+</html> 
