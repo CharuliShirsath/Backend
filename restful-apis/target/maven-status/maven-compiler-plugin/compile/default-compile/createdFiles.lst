@@ -1,0 +1,6 @@
+com\omfys\RestfulApisApplication.class
+com\omfys\controller\UserController.class
+com\omfys\service\UserService.class
+com\omfys\repository\UserDao.class
+com\omfys\model\User.class
+com\omfys\service\UserServiceImpl.class

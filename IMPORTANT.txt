@@ -1,0 +1,31 @@
+Imp links--> https://www.baeldung.com/spring-boot-dependency-management-custom-parent
+https://www.baeldung.com/spring-boot-jsp
+
+https://github.com/eugenp/tutorials/blob/master/spring-boot-modules/spring-boot-jsp
+
+https://www.baeldung.com/start-here
+========================================================================================
+========================================================================================
+hibernate-crud-operations --> https://www.geeksforgeeks.org/spring-mvc-and-hibernate-crud-example/?ref=asr1
+				--> mvn spring-boot:run
+
+HIbernate in details----> https://www.geeksforgeeks.org/hibernate-lifecycle/?ref=lbp
+-----------------------------------------------------------------------
+JDBCTemplate --> https://spring.io/guides/gs/relational-data-access
+|----- Git repo---> https://github.com/spring-guides/gs-relational-data-access.git
+----------------------------------------------------------------------------------
+RestFul API--> https://aws.amazon.com/what-is/restful-api/#:~:text=RESTful%20API%20is%20an%20interface,applications%20to%20perform%20various%20tasks.
+------------------> https://github.com/eugenp/tutorials/tree/master/spring-web-modules --> contains all project of spring web mvc. Take the reference 
+of this code and understand the code. Make REST APIs.
+=================================================================================================================
+Spring-boot 20 projects with code :--> https://www.springboottutorial.com/spring-boot-projects-with-code-examples
+You'll be understand more on rest apis when your going through this code
+
+=================================================================================================================
+Imp for SpringBoot: https://www.springboottutorial.com/spring-boot-interview-questions
+https://www.altexsoft.com/blog/rest-api-design/
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!-- list.html -->
+<!DOCTYPE html> 
+<html lang="en" xmlns:th="http://www.thymeleaf.org"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="/css/styles.css"> 
+	<title>Student Management System</title> 
+</head> 
+<body> 
+
+<div class="container"> 
+	<center> 
+	<h1>List of Students</h1>	 
+	</center> 
+	
+
+	<h2>Student List</h2> 
+
+	<table> 
+		<thead> 
+		<tr> 
+			<th>ID</th> 
+			<th>Name</th> 
+			<th>Age</th> 
+			<th>Enrolled Course</th> 
+			<th>Edit</th> 
+			<th>Delete</th> 
+		</tr> 
+		</thead> 
+		<tbody> 
+		<tr th:each="student : ${students}"> 
+			<td th:text="${student.id}"></td> 
+			<td th:text="${student.name}"></td> 
+			<td th:text="${student.age}"></td> 
+			<td th:text="${student.enrolledcourse}"></td> 
+			<td><a th:href="@{/students/edit/{id}(id=${student.id})}">Edit</a></td> 
+			<td><a th:href="@{/students/delete/{id}(id=${student.id})}">Delete</a></td> 
+		</tr> 
+		</tbody> 
+	</table> 
+
+	<a href="/students/add">Add Student</a> 
+
+</div> 
+
+</body> 
+</html> 
